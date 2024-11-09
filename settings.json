@@ -1,0 +1,13 @@
+{
+	"editor.formatOnSave": true, // 保存時に自動フォーマット
+	"eslint.validate": [
+		"typescript", // .ts ファイル
+		"typescriptreact", // .tsx ファイル
+		"markdown", // マークダウンファイル内のコードスニペット
+		"css", // CSS ファイル
+		"scss", // SCSS ファイル
+		"json", // .json ファイル（設定ファイルを含む）
+		"html", // .html ファイル
+	],
+	"prettier.requireConfig": true // プロジェクト内の設定ファイルが必要
+}
