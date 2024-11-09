@@ -1,5 +1,10 @@
-export default function Home() {
 
-  return
-  <div>Hello next.js</div>;
+import { Button } from "@mui/material"
+
+export default function Home() {
+  return (
+    <>
+      <Button variant="contained">ボタン</Button>
+    </>
+  )
 }
